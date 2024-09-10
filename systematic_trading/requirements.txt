@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+yfinance
+ta-lib
+statsmodels
+
+quantlib-python
+zipline
+backtrader
+pyalgotrade
