@@ -1,0 +1,50 @@
+
+universes:
+  - id: TECH_2023_LIST
+    name: Technology Sector 2023 (List)
+    start_date: 2023-01-01
+    end_date: 2023-12-31
+    type: list
+    source: 
+      type: static
+      data: ["AAPL", "GOOGL", "MSFT", "AMZN", "FB"]
+    category:
+      name: sector
+      value: Technology
+    countries: ["USA"]
+
+  - id: TECH_2023_DF
+    name: Technology Sector 2023 (DataFrame)
+    start_date: 2023-01-01
+    end_date: 2023-12-31
+    type: dataframe
+    source:
+      type: random
+      symbols: ["AAPL", "GOOGL", "MSFT", "AMZN", "FB"]
+    category:
+      name: sector
+      value: Technology
+    countries: ["USA"]
+
+  - id: SP500_2023
+    name: S&P 500 2023
+    start_date: 2023-01-01
+    end_date: 2023-12-31
+    type: list
+    source:
+      type: file
+      path: sp500_constituents.csv
+    countries: ["USA"]
+
+  - id: GLOBAL_CONSUMER_STAPLES_2023
+    name: Global Consumer Staples 2023
+    start_date: 2023-01-01
+    end_date: 2023-12-31
+    type: list
+    source:
+      type: static
+      data: ["PG", "KO", "PEP", "WMT", "COST", "NESN.SW", "UL", "DEO"]
+    category:
+      name: sector
+      value: Consumer Staples
+    countries: ["USA", "Switzerland", "UK"]
