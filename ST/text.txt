@@ -1,3 +1,18 @@
+
+Interpretation Category,Buy Margin, Sell Margin,Description
+Sentiment Analysis,High buy margin indicates bullish sentiment,High sell margin indicates bearish sentiment,Use buy margin to gauge optimism and sell margin for pessimism in the market
+Leverage & Risk Appetite,Increasing buy margin suggests higher risk appetite,Increasing sell margin suggests a flight to safety,Leverage levels can signal investor risk preferences
+Overbought/Oversold Conditions,High buy margin indicates potential overbought conditions,High sell margin indicates potential oversold conditions,Mean reversion strategies can exploit these conditions
+Forced Liquidations,Rapid decline in buy margin suggests forced liquidations from long positions,Rapid increase in sell margin suggests forced liquidations from short positions,Monitor changes for signs of margin calls and liquidations
+Short Interest & Margin Selling,Low buy margin may indicate bearish sentiment with less buying power,High sell margin may indicate increased short selling and bearish positions,Assess overall market sentiment based on the balance of buy and sell margins
+Divergence Between Margin & Price,High buy margin and falling prices suggest a potential reversal or overextension,High sell margin and rising prices suggest a potential short squeeze,Look for divergences to time entries or exits
+Margin Debt to Market Cap,High buy margin relative to market cap suggests leveraged speculative interest,High sell margin relative to market cap suggests leveraged short positions,Use the ratio of margin to market cap to adjust risk and exposure
+Sector/Stock Comparisons,Compare buy margin across sectors to identify where bullish sentiment is concentrated,Compare sell margin across sectors to identify where bearish sentiment is concentrated,Rotate into sectors with favorable buy/sell margin trends
+Retail vs. Institutional Activity,Rising buy margin from retail investors suggests speculative bubbles,Rising sell margin from institutional investors suggests defensive positioning,Track the type of market participants driving margin activity
+Seasonality of Margin Debt,Increasing buy margin around bullish seasonal periods (e.g., earnings),Increasing sell margin around bearish periods (e.g., market corrections),Adjust strategies based on seasonal changes in buy and sell margin behavior
+
+
+
 Country/Region,Source,Access,Frequency of Update,Aggregation Level,Description
 United States,FINRA,Public,Monthly,Market-wide,Monthly margin debt statistics
 Japan,JPX,Public,Daily,Stock-level,Margin balance data for TSE-listed securities
