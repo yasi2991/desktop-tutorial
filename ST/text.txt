@@ -1,3 +1,18 @@
+
+Country/Region    Source           Access      Frequency of Update    Aggregation Level        Description
+United States     FINRA            Public      Monthly                Market-wide              Monthly margin debt statistics
+Japan             JPX              Public      Daily                  Stock-level              Margin balance data for TSE-listed securities
+China             SSE/SZSE         Public      Daily                  Stock-level              Daily margin financing data for both exchanges
+South Korea       KOFIA/KRX        Public      Daily                  Stock-level              Margin trading and debt data for KRX
+Hong Kong         SFC              Public      Weekly                 Market-wide              Reports on margin lending practices
+Singapore         MAS/SGX          Public      Periodic (Monthly)     Market-wide              Limited margin debt data; inferred from market reports
+Australia         ASIC             Public      Quarterly              Market-wide              Margin lending reports and outstanding margin debt
+India             NSE/SEBI         Public      Monthly                Market-wide              Margin trading facility reports
+Canada            IIROC            Public      Monthly                Market-wide              Margin debt data for Canadian markets
+Europe            ECB/Local Regs   Public      Quarterly              Market-wide              Leverage and margin data from various national regulators
+Global Providers  IHS Markit, Bloomberg, Refinitiv  Subscription  Real-time, Daily  Consolidated Global Aggregated margin debt data across countries and markets
+
+
 In Asian markets, short interest data is typically less transparent compared to U.S. and European markets, but there are specific sources and methods that can provide this information. Below is a list of key short interest sources in major Asian markets, along with how deterministic they are:
 
 ### 1. **Stock Exchanges**
