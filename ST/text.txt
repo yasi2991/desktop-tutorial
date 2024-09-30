@@ -104,3 +104,96 @@ In some Asian markets, short positions above a certain threshold must be disclos
 ---
 
 In Asian markets, exchange-reported short interest data and securities lending activity provide the most reliable and deterministic insights. However, the level of transparency varies by country, and third-party aggregators like IHS Markit, S3 Partners, and Bloomberg offer more comprehensive and timely data for institutional use.
+
+
+
+Margin debt data can provide insights into leverage and market sentiment across different countries, and it is typically published by exchanges, financial regulators, or data providers. Here's a list of sources for margin debt data per country:
+
+### 1. **United States**
+   - **Source**: **FINRA (Financial Industry Regulatory Authority)**
+   - **Access**: Monthly margin debt statistics are available on the FINRA website.
+   - **Link**: [FINRA Margin Statistics](https://www.finra.org/investors/learn-to-invest/advanced-investing/margin-statistics)
+   - **Description**: This data includes the total margin debt in the U.S. market, which is widely followed as a measure of market leverage and sentiment.
+
+### 2. **Japan**
+   - **Source**: **Japan Exchange Group (JPX)**
+   - **Access**: JPX provides **Margin Balance** data for stocks traded on the Tokyo Stock Exchange.
+   - **Link**: [JPX Margin Balance Data](https://www.jpx.co.jp/english/markets/statistics-equities/margin-trading/index.html)
+   - **Description**: The data includes both the margin buying balance and the margin selling balance for TSE-listed securities.
+
+### 3. **China**
+   - **Source**: **Shanghai Stock Exchange (SSE)** and **Shenzhen Stock Exchange (SZSE)**
+   - **Access**: Both exchanges provide daily updates on **margin financing** and **securities lending**.
+   - **Link**: [SSE Margin Trading Data](http://english.sse.com.cn/marketdata/tradingdata/margin/) and [SZSE Margin Trading Data](http://www.szse.cn/English/statistics/market/margin/)
+   - **Description**: Margin trading and securities lending data for the two major exchanges in China are published daily, offering insights into the leverage being used in the Chinese equity market.
+
+### 4. **South Korea**
+   - **Source**: **Korea Financial Investment Association (KOFIA)** and **Korea Exchange (KRX)**
+   - **Access**: KOFIA publishes margin trading data that covers margin debt balances, while KRX provides additional details on margin transactions.
+   - **Link**: [KOFIA Margin Trading](http://www.kofia.or.kr/) and [KRX Margin Debt Data](https://global.krx.co.kr/)
+   - **Description**: Data includes the total value of margin trading by investors on the KRX.
+
+### 5. **Hong Kong**
+   - **Source**: **Hong Kong Stock Exchange (HKEX)**
+   - **Access**: HKEX does not provide direct margin debt data, but the **Securities and Futures Commission (SFC)** reports on margin lending practices in the market.
+   - **Link**: [SFC Reports](https://www.sfc.hk/en)
+   - **Description**: Data on margin lending practices in Hong Kong, though not as frequently published as in other markets.
+
+### 6. **Singapore**
+   - **Source**: **Monetary Authority of Singapore (MAS)** and **Singapore Exchange (SGX)**
+   - **Access**: While direct margin debt data is not always readily available, SGX and MAS provide reports on market leverage and investor activity.
+   - **Link**: [MAS Reports](https://www.mas.gov.sg/) and [SGX Market Statistics](https://www.sgx.com/)
+   - **Description**: Data on margin trading is limited but can be inferred from SGX's trading reports and MAS publications.
+
+### 7. **Australia**
+   - **Source**: **Australian Securities and Investments Commission (ASIC)**
+   - **Access**: ASIC publishes reports on margin lending in Australia, including the level of outstanding margin debt.
+   - **Link**: [ASIC Margin Lending](https://asic.gov.au/)
+   - **Description**: ASIC provides periodic updates on the use of margin loans and the total margin debt in the Australian market.
+
+### 8. **India**
+   - **Source**: **National Stock Exchange of India (NSE)** and **Securities and Exchange Board of India (SEBI)**
+   - **Access**: NSE provides data on margin trading activities, while SEBI reports on the regulation of margin trading in India.
+   - **Link**: [NSE Margin Trading](https://www.nseindia.com/) and [SEBI Reports](https://www.sebi.gov.in/)
+   - **Description**: The NSE provides periodic updates on the margin trading facility for investors, with detailed reports available on SEBI’s website.
+
+### 9. **Canada**
+   - **Source**: **Investment Industry Regulatory Organization of Canada (IIROC)**
+   - **Access**: IIROC provides margin debt data as part of its oversight of market activity in Canada.
+   - **Link**: [IIROC Reports](https://www.iiroc.ca/)
+   - **Description**: IIROC publishes data on margin lending and outstanding margin debt in the Canadian market.
+
+### 10. **Europe**
+   - **Source**: **European Central Bank (ECB)** and **National Regulators (e.g., FCA for UK)**
+   - **Access**: In Europe, margin data is generally collected by national regulators. The ECB and other financial authorities provide insights into market leverage.
+   - **Link**: [ECB Financial Stability Review](https://www.ecb.europa.eu/home/html/index.en.html) and **Local Authorities (e.g., [FCA](https://www.fca.org.uk/))**
+   - **Description**: Data on margin lending across European markets is more fragmented but can be inferred from broader leverage and financial stability reports.
+
+### 11. **Global Data Providers**
+   - **Source**: **IHS Markit**, **Bloomberg**, **Refinitiv**
+   - **Access**: These global data providers aggregate margin debt data from various markets and provide historical and real-time data.
+   - **Link**: Available through subscription-based services like **Bloomberg Terminal**, **IHS Markit**, and **Refinitiv Eikon**.
+   - **Description**: These sources provide consolidated data across multiple countries and markets, making it easier to access margin debt information in different regions.
+
+---
+
+### Summary Table
+
+| **Country/Region** | **Source** | **Access** | **Description** |
+|--------------------|------------|------------|-----------------|
+| **United States**   | FINRA      | Public     | Monthly margin debt statistics |
+| **Japan**           | JPX        | Public     | Margin balance data for TSE |
+| **China**           | SSE/SZSE   | Public     | Daily margin financing data |
+| **South Korea**     | KOFIA/KRX  | Public     | Margin trading and debt data |
+| **Hong Kong**       | SFC        | Public     | Reports on margin lending |
+| **Singapore**       | MAS/SGX    | Public     | Limited margin debt data |
+| **Australia**       | ASIC       | Public     | Margin lending reports |
+| **India**           | NSE/SEBI   | Public     | Margin trading facility reports |
+| **Canada**          | IIROC      | Public     | Margin debt data |
+| **Europe**          | ECB/Local Regulators | Public | Market leverage and margin data |
+| **Global Providers**| IHS Markit, Bloomberg, Refinitiv | Subscription | Aggregated margin debt data across countries |
+
+---
+
+These sources provide varying levels of transparency and frequency of updates, but they collectively offer valuable insights into margin debt and market leverage across different regions.
+
