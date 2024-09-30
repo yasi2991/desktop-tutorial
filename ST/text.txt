@@ -1,0 +1,106 @@
+In Asian markets, short interest data is typically less transparent compared to U.S. and European markets, but there are specific sources and methods that can provide this information. Below is a list of key short interest sources in major Asian markets, along with how deterministic they are:
+
+### 1. **Stock Exchanges**
+Most Asian stock exchanges provide some level of short interest reporting, either directly or through their listed brokers. The determinism and reliability of the data depend on the rules and reporting frequency enforced by each exchange.
+
+#### a. **Japan - Tokyo Stock Exchange (TSE)**
+   - **Source**: TSE provides daily short-selling data. Japan has strict disclosure rules where short sellers must disclose positions above 0.2% of outstanding shares.
+   - **Access**: Available on the **Japan Exchange Group (JPX)** website, with detailed breakdowns of daily short-selling activity by stock.
+   - **Determinism**: Moderately deterministic. Japan requires timely disclosure, but the data is aggregated and doesn’t reveal individual short positions below the 0.2% threshold.
+
+#### b. **Hong Kong - Hong Kong Stock Exchange (HKEX)**
+   - **Source**: HKEX publishes a **Daily Short Selling Turnover Report** and a **Short Position Reporting (SPR)** system.
+   - **Access**: Available on the **HKEX** website. Large short positions must be reported weekly if they reach or exceed 0.02% of the market capitalization or HKD 30 million.
+   - **Determinism**: Moderately deterministic. Short positions above the reporting threshold must be disclosed, and the HKEX provides detailed daily turnover data.
+
+#### c. **South Korea - Korea Exchange (KRX)**
+   - **Source**: KRX provides short-selling data on a daily basis and also publishes **aggregate short positions** for each stock.
+   - **Access**: Data can be accessed on the **KRX** website, including daily short sales by stock.
+   - **Determinism**: Moderately deterministic. The data is reliable for aggregate trends, but specific details on institutional or individual traders are limited.
+
+#### d. **China - Shanghai and Shenzhen Stock Exchanges**
+   - **Source**: Short selling in mainland China is tightly regulated and limited to specific securities and institutional investors. Both the **Shanghai Stock Exchange (SSE)** and **Shenzhen Stock Exchange (SZSE)** report aggregate short-selling data.
+   - **Access**: Short-selling data is published on their respective websites.
+   - **Determinism**: Low determinism. Short selling is limited in China and does not provide comprehensive insight into market sentiment due to the restricted number of eligible securities and participants.
+
+#### e. **Singapore - Singapore Exchange (SGX)**
+   - **Source**: SGX provides daily short-selling information through the **Daily Short Sale Report** and **Weekly Short Position Report**.
+   - **Access**: Reports are available on the **SGX** website. SGX requires disclosure of short positions exceeding 0.2% of a company’s total issued shares.
+   - **Determinism**: Moderately deterministic. SGX’s reporting is structured similarly to other developed markets, making it a relatively reliable source.
+
+---
+
+### 2. **Market Data Providers**
+Several third-party market data providers aggregate and enhance exchange-level short interest data in Asian markets. These services often include analytics and historical data, which can improve their determinism.
+
+#### a. **Data Explorers (Acquired by IHS Markit)**
+   - **Source**: Provides comprehensive short interest and securities lending data across multiple global markets, including Asia. IHS Markit offers short interest metrics based on actual stock loan data from brokers.
+   - **Access**: Subscription-based service. Institutional investors and traders use it for deeper insights into short positions across global markets.
+   - **Determinism**: High determinism. Since the data is derived from actual securities lending activity, it reflects real short positioning, although it may not capture all short sellers (e.g., naked shorting).
+
+#### b. **S3 Partners**
+   - **Source**: S3 Partners offers real-time short interest data, combining exchange-reported short interest with proprietary data from securities lending and broker activity.
+   - **Access**: Available via **S3’s Black App** or through Bloomberg terminals.
+   - **Determinism**: High determinism. S3's data is considered among the most accurate and up-to-date sources for short interest, with granular insights into daily market moves and trends.
+
+#### c. **Bloomberg**
+   - **Source**: Bloomberg Terminal provides short interest data globally, including for Asian markets. It aggregates exchange-reported data along with insights from securities lending and institutional reports.
+   - **Access**: Available through a **Bloomberg Terminal** subscription.
+   - **Determinism**: Moderately high determinism. Bloomberg’s aggregation provides timely and detailed data, but it is still dependent on underlying sources (e.g., exchanges).
+
+#### d. **Refinitiv (Thomson Reuters)**
+   - **Source**: Refinitiv offers short interest data alongside other market indicators across global markets, including Asia. It pulls from exchange reports and lending activity.
+   - **Access**: Available via subscription through the **Refinitiv Eikon** platform.
+   - **Determinism**: Moderately high determinism. Similar to Bloomberg, Refinitiv’s data is reliable but subject to the limitations of the underlying exchange data.
+
+---
+
+### 3. **Securities Lending Data**
+Securities lending activity can act as a proxy for short interest, since shares must be borrowed to establish short positions. While this data doesn’t directly reflect short interest, it is strongly correlated.
+
+#### a. **FIS Astec Analytics**
+   - **Source**: Astec Analytics provides data on securities lending, borrowing rates, and utilization rates across Asia. This data is highly correlated with short interest, especially in less transparent markets.
+   - **Access**: Available via a **subscription** service.
+   - **Determinism**: High determinism. Securities lending data offers a reliable proxy for short interest, particularly in markets where short-selling disclosure is limited or delayed.
+
+#### b. **Securities Lending Times**
+   - **Source**: This industry publication reports on securities lending trends globally, including in Asia, with a focus on supply and demand dynamics in the securities lending market.
+   - **Access**: Free or subscription-based for detailed reports.
+   - **Determinism**: Medium determinism. Securities lending trends offer a good approximation of short interest, but it is an indirect measure.
+
+---
+
+### 4. **Regulatory Filings**
+In some Asian markets, short positions above a certain threshold must be disclosed to regulators. Monitoring these filings can provide insight into large short positions, though the data is less frequent.
+
+#### a. **Japan - Financial Services Agency (FSA)**
+   - **Source**: Japan’s FSA requires short sellers to disclose positions exceeding 0.2% of a company’s outstanding shares.
+   - **Access**: Available on the **FSA’s website**, but filings are delayed and are not published in real-time.
+   - **Determinism**: Moderately high determinism. The data is reliable but may be delayed, offering less timely insights.
+
+#### b. **Hong Kong - Securities and Futures Commission (SFC)**
+   - **Source**: The SFC requires short positions in Hong Kong securities to be reported once they exceed 0.02% of market capitalization.
+   - **Access**: Available on the **SFC’s website**, with weekly updates.
+   - **Determinism**: Moderately deterministic. The reporting is structured, but the data might not capture shorter-term moves or intraday dynamics.
+
+---
+
+### Summary Table
+
+| **Source**                          | **Market**                    | **Determinism**                  | **Description**                                                  |
+|-------------------------------------|-------------------------------|----------------------------------|------------------------------------------------------------------|
+| **TSE (Japan)**                     | Japan                         | Moderate                        | Daily short-selling data; required disclosure above 0.2%.         |
+| **HKEX (Hong Kong)**                | Hong Kong                     | Moderate                        | Daily short-selling turnover, weekly short position report.       |
+| **KRX (South Korea)**               | South Korea                   | Moderate                        | Daily short-selling data and aggregate short positions.           |
+| **SSE & SZSE (China)**              | China                         | Low                             | Limited short-selling data for select securities.                 |
+| **SGX (Singapore)**                 | Singapore                     | Moderate                        | Daily short-selling data; disclosure above 0.2%.                  |
+| **IHS Markit (Data Explorers)**      | Global (Asia included)         | High                            | Securities lending data used as proxy for short interest.         |
+| **S3 Partners**                     | Global (Asia included)         | High                            | Real-time short interest via lending and broker activity.         |
+| **Bloomberg**                       | Global (Asia included)         | Moderately High                 | Aggregated data from exchanges and lending.                       |
+| **Refinitiv**                       | Global (Asia included)         | Moderately High                 | Exchange-reported short interest and lending data.                |
+| **FIS Astec Analytics**             | Global (Asia included)         | High                            | Securities lending data as a short interest proxy.                |
+| **Regulatory Filings (Japan, HK)**  | Japan, Hong Kong               | Moderate to High                | Threshold-based short position disclosures.                       |
+
+---
+
+In Asian markets, exchange-reported short interest data and securities lending activity provide the most reliable and deterministic insights. However, the level of transparency varies by country, and third-party aggregators like IHS Markit, S3 Partners, and Bloomberg offer more comprehensive and timely data for institutional use.
