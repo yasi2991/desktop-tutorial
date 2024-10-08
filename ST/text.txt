@@ -1,3 +1,17 @@
+
+Method,Description,Basis of the Method
+Simple Averaging,Combine multiple signals by taking their arithmetic mean,"Assumes all signals have equal importance and reliability. Simplifies aggregation by averaging signal values."
+Weighted Averaging,Assign different weights to each signal and compute the weighted mean,"Recognizes that some signals are more reliable or relevant than others, allowing for differentiated influence."
+Majority Voting,Aggregate signals based on the majority direction (e.g., buy/sell),"Utilizes the consensus approach, assuming that the majority of signals pointing in one direction is more likely right."
+Ensemble Methods,Use techniques like Bagging, Boosting, or Random Forests to combine signals,"Leverages multiple models to improve prediction accuracy and reduce overfitting by combining diverse signal sources."
+Bayesian Aggregation,Combine signals using Bayesian probability, updating beliefs based on new information,"Applies probabilistic reasoning to integrate prior knowledge with new signal data for informed decision-making."
+Neural Networks,Employ neural network architectures to learn complex relationships between signals,"Utilizes deep learning to capture non-linear patterns and interactions among multiple trading signals."
+Rule-Based Systems,Use predefined rules or logic to combine signals (e.g., if-then statements),"Implements expert knowledge and specific conditions to systematically aggregate signals based on set criteria."
+Meta-Analysis,Statistically combine results from different signals to derive an overall effect,"Applies statistical techniques to synthesize information from multiple sources, enhancing robustness of decisions."
+Principal Component Analysis (PCA),Reduce dimensionality and combine signals into principal components,"Identifies underlying factors that explain the variance in multiple signals, simplifying aggregation."
+Fuzzy Logic,Use fuzzy sets and logic to handle uncertainty and combine signals,"Manages ambiguity and partial truths in signals, allowing for more nuanced aggregation compared to binary logic."
+Genetic Algorithms,Optimize the combination of signals using evolutionary techniques,"Employs optimization and search techniques inspired by natural selection to find the best aggregation strategy."
+Consensus Algorithms,Use decentralized protocols to reach agreement on signal aggregation,"Ensures reliability and consistency in aggregating signals, often used in distributed trading systems."
 Strategy Type,Description,Required Data,Practical Example,Reference (Paper/Study)
 Pairs Trading,"Identify two historically correlated stocks and trade based on their divergence and convergence.",Historical price data of pairs, correlation metrics, volatility data.,Long Coca-Cola and short Pepsi when their price spread widens beyond historical norms.,Gatev et al. (2006), “Pairs Trading: Performance of a Relative-Value Arbitrage Rule.”
 Cointegration Trading,"Use statistical methods to determine whether two or more stocks have a long-run equilibrium relationship and trade based on deviations from this equilibrium.",Historical price data, econometric tools (ADF test, Johansen test), volatility data.,Long General Motors and short Ford when their prices deviate from the cointegrating relationship.,Alexander (2001), “Cointegration and Asset Allocation: A New Investment Methodology.”
