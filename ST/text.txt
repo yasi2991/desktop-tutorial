@@ -1,4 +1,48 @@
+Key Pillars for 2025
+1. Data Strategy and Enhancement
+To drive systematic strategies, clean and reliable data remains our core priority. This year, we will continue to iterate over many data sources, enhancing them through rigorous testing and optimizing their relevance. Our strategy includes:
 
+Adding New Data Layers: Continuously sourcing new datasets, replacing less informative ones to maintain an edge. Each dataset must undergo a strict review to assess relevance and predictive power.
+Automation of Data Cleaning: Reducing duplication of data-cleaning efforts across teams by implementing shared pipelines that ensure consistency and speed.
+Collaboration and Sharing Framework: Clear guidelines on IP sharing and collaboration between desks will be established to ensure openness, streamline data preparation, and prevent redundant work.
+2. Causal and Machine Learning Models
+We propose a hybrid approach where causal models are enhanced with machine learning techniques. Pure causal or ML models alone have limitations, but in combination, they create more robust and adaptable strategies.
+
+Causal Models: Grounded in economic logic, these models allow for structural understanding of the relationships between different data points.
+Machine Learning: ML will help capture complex, non-linear patterns from vast data inputs, continuously improving with every iteration of data inputs.
+Iterative Signal Enhancement: Signals generated through this hybrid approach will undergo continuous testing and refinement. This iterative process allows us to phase out weaker signals and enhance those that show predictive robustness.
+3. Robust Feature Selection Framework
+One size does not fit all when it comes to feature selection. Our desk will lead efforts to develop adaptive models of feature selection, where features are dynamically chosen and optimized for each trading strategy.
+
+Statistical & ML-based Selection: Feature selection will be driven by statistical rigor combined with machine learning algorithms, ensuring that the most relevant features are used for each scenario.
+Custom Solutions, Not Off-the-shelf: Out-of-the-box implementation will be avoided as it brings risks, especially in markets where nuance matters. Custom solutions will allow for tailored strategies that outperform more general, one-size-fits-all approaches.
+4. IP Creation and Ownership
+In contrast to the more “memory-less” models seen in discretionary and siloed trading, the systematic desk will focus on creating additive IP that evolves over time. This will involve:
+
+Iterative IP Enhancement: Every strategy and framework developed will go through cycles of improvement and refinement.
+Collaborative Ownership: By formalizing a working group, we can share the resulting IP across teams (e.g., core engineering and algo) while ensuring systematic trading is the primary driver of direction and application.
+Key Opportunities for 2025
+By-products and Franchise Benefits
+We’ve already seen multiple use-cases for the frameworks and features created in 2024. Going forward, we aim to accelerate these processes:
+
+Feature & Model Reuse: Models like the X-shareholding Factor and US Election Basket for Asia can be extended into other regions and asset classes.
+Sentiment Data: In 2025, we propose the full implementation of sentiment models such as those from RavenPack, which showed promise in trials this year.
+Automated Content Generation: Building on efforts from 2024, we will implement automated content generation tools for insights and alerts, allowing for broader applications such as earnings sentiment analysis.
+Proposed Resource Allocation and Collaboration
+Pooling Resources
+Given the limitations in time and manpower, pooling resources will be critical in scaling our work:
+
+Shared Feature Banks: A consolidated feature bank that can be accessed and used across multiple teams will optimize the use of resources and foster collaboration.
+Formalized Working Group: Establishing a formal working group that includes participants from the systematic desk, GSET, and core engineering will provide a structure for scaling our framework development. This working group will also focus on clarifying terms of collaboration to streamline resource and IP sharing.
+Scaling through Iteration
+Our strength lies in understanding the full life-cycle of data—from sourcing and transformation to vulnerability assessment and output. This capability allows us to iterate quickly and refine models to ensure their scalability.
+
+Model Enhancement and Implementation: Once key models are built, they can be scaled across regions and asset classes with minimal adjustment, ensuring that the systematic desk drives this process.
+Conclusion
+In 2025, the systematic desk will continue to build on its 2024 achievements by refining and iterating over data sources, leveraging causal models enhanced with machine learning, and producing robust, adaptable feature selection frameworks. By pooling resources and fostering a collaborative environment, we aim to create scalable, additive IP that benefits the franchise and beyond. With the right support from GSET and core engineering, we will ensure that this vision becomes reality.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 For systematic trading, you can incorporate several quantitative gauges related to AI excitement that provide actionable insights for creating trading strategies. Here are more indicators, particularly tailored for systematic trading:
 
 	1.	AI-Related ETF Flows:
